@@ -1,1 +1,1 @@
-# MehdiMirakhorli-SBOM-Landscape-Study
+# SBOM-Landscape-Study
