@@ -1,0 +1,474 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: case3a-1.0-SNAPSHOT
+DocumentNamespace: http://spdx.org/spdxpackages/case3a-1.0-SNAPSHOT-896ef577-45cb-4499-8f55-390afe6c25d5
+Creator: Tool: spdx-sbom-generator-v0.0.15
+Created: 2024-02-13T13:36:30Z
+
+
+##### Package representing the case3a
+
+PackageName: case3a
+SPDXID: SPDXRef-Package-case3a
+PackageVersion: 1.0-SNAPSHOT
+PackageSupplier: Organization: org.example
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.example
+FilesAnalyzed: false
+PackageChecksum: SHA1: ecf821e97e5966cbf4d69e371001fd4fbf085e64
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the jackson-databind
+
+PackageName: jackson-databind
+SPDXID: SPDXRef-Package-jackson-databind-2.15.2
+PackageVersion: 2.15.2
+PackageSupplier: Organization: jackson-databind
+PackageDownloadLocation: https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.15.2
+FilesAnalyzed: false
+PackageChecksum: SHA1: 7d03e73aa50d143b3ecbdea2c0c9e158e5ed8021
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the guava
+
+PackageName: guava
+SPDXID: SPDXRef-Package-guava-33.0.0-jre
+PackageVersion: 33.0.0-jre
+PackageSupplier: Organization: guava
+PackageDownloadLocation: https://mvnrepository.com/artifact/com.google.guava/guava/33.0.0-jre
+FilesAnalyzed: false
+PackageChecksum: SHA1: aacd94c2b238d4474c7c446069a6f22375208a0d
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the junit-jupiter-api
+
+PackageName: junit-jupiter-api
+SPDXID: SPDXRef-Package-junit-jupiter-api-5.10.0
+PackageVersion: 5.10.0
+PackageSupplier: Organization: junit-jupiter-api
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api/5.10.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: 291236e0cbf7650459c969286655c4592ee5b639
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-antrun-plugin
+
+PackageName: maven-antrun-plugin
+SPDXID: SPDXRef-Package-maven-antrun-plugin- Plugin org.apache.maven.plugins
+PackageVersion:  Plugin org.apache.maven.plugins
+PackageSupplier: Organization: maven-antrun-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact/Failed to retrieve plugin descriptor for org.apache.maven.plugins/maven-antrun-plugin/ Plugin org.apache.maven.plugins
+FilesAnalyzed: false
+PackageChecksum: SHA1: b8ae7e26f7fca23ed28a3e7a39b4e33fc32919a5
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-assembly-plugin
+
+PackageName: maven-assembly-plugin
+SPDXID: SPDXRef-Package-maven-assembly-plugin- Plugin org.apache.maven.plugins
+PackageVersion:  Plugin org.apache.maven.plugins
+PackageSupplier: Organization: maven-assembly-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact/Failed to retrieve plugin descriptor for org.apache.maven.plugins/maven-assembly-plugin/ Plugin org.apache.maven.plugins
+FilesAnalyzed: false
+PackageChecksum: SHA1: 6381595cb9f1c465cec19ae14ce7b1785b6acdfd
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-clean-plugin
+
+PackageName: maven-clean-plugin
+SPDXID: SPDXRef-Package-maven-clean-plugin- Plugin org.apache.maven.plugins
+PackageVersion:  Plugin org.apache.maven.plugins
+PackageSupplier: Organization: maven-clean-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact/Failed to retrieve plugin descriptor for org.apache.maven.plugins/maven-clean-plugin/ Plugin org.apache.maven.plugins
+FilesAnalyzed: false
+PackageChecksum: SHA1: 10c987062aa8b94186a151fb61d00b58229a7a47
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-compiler-plugin
+
+PackageName: maven-compiler-plugin
+SPDXID: SPDXRef-Package-maven-compiler-plugin- Plugin org.apache.maven.plugins
+PackageVersion:  Plugin org.apache.maven.plugins
+PackageSupplier: Organization: maven-compiler-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact/Failed to retrieve plugin descriptor for org.apache.maven.plugins/maven-compiler-plugin/ Plugin org.apache.maven.plugins
+FilesAnalyzed: false
+PackageChecksum: SHA1: 6f317c4eab5a6ef236963bf88d736bda171033ce
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-dependency-plugin
+
+PackageName: maven-dependency-plugin
+SPDXID: SPDXRef-Package-maven-dependency-plugin- Plugin org.apache.maven.plugins
+PackageVersion:  Plugin org.apache.maven.plugins
+PackageSupplier: Organization: maven-dependency-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact/Failed to retrieve plugin descriptor for org.apache.maven.plugins/maven-dependency-plugin/ Plugin org.apache.maven.plugins
+FilesAnalyzed: false
+PackageChecksum: SHA1: 454728243c5e9d592dd26e4ef4626a78a51b041f
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-deploy-plugin
+
+PackageName: maven-deploy-plugin
+SPDXID: SPDXRef-Package-maven-deploy-plugin- Plugin org.apache.maven.plugins
+PackageVersion:  Plugin org.apache.maven.plugins
+PackageSupplier: Organization: maven-deploy-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact/Failed to retrieve plugin descriptor for org.apache.maven.plugins/maven-deploy-plugin/ Plugin org.apache.maven.plugins
+FilesAnalyzed: false
+PackageChecksum: SHA1: 18ec4df04bd88eaa8efd5a9da841881cefc50fb7
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-install-plugin
+
+PackageName: maven-install-plugin
+SPDXID: SPDXRef-Package-maven-install-plugin- Plugin org.apache.maven.plugins
+PackageVersion:  Plugin org.apache.maven.plugins
+PackageSupplier: Organization: maven-install-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact/Failed to retrieve plugin descriptor for org.apache.maven.plugins/maven-install-plugin/ Plugin org.apache.maven.plugins
+FilesAnalyzed: false
+PackageChecksum: SHA1: bf69d776115b0bbfda6cf8fc95e046581527377c
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-jar-plugin
+
+PackageName: maven-jar-plugin
+SPDXID: SPDXRef-Package-maven-jar-plugin- Plugin org.apache.maven.plugins
+PackageVersion:  Plugin org.apache.maven.plugins
+PackageSupplier: Organization: maven-jar-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact/Failed to retrieve plugin descriptor for org.apache.maven.plugins/maven-jar-plugin/ Plugin org.apache.maven.plugins
+FilesAnalyzed: false
+PackageChecksum: SHA1: 58a31cf79dee7603f8fcaa3d2406f52ad9cb7a89
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-release-plugin
+
+PackageName: maven-release-plugin
+SPDXID: SPDXRef-Package-maven-release-plugin- Plugin org.apache.maven.plugins
+PackageVersion:  Plugin org.apache.maven.plugins
+PackageSupplier: Organization: maven-release-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact/Failed to retrieve plugin descriptor for org.apache.maven.plugins/maven-release-plugin/ Plugin org.apache.maven.plugins
+FilesAnalyzed: false
+PackageChecksum: SHA1: fd7254958a4a2baf03d756cc819ec6e7892ab64c
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-resources-plugin
+
+PackageName: maven-resources-plugin
+SPDXID: SPDXRef-Package-maven-resources-plugin- Plugin org.apache.maven.plugins
+PackageVersion:  Plugin org.apache.maven.plugins
+PackageSupplier: Organization: maven-resources-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact/Failed to retrieve plugin descriptor for org.apache.maven.plugins/maven-resources-plugin/ Plugin org.apache.maven.plugins
+FilesAnalyzed: false
+PackageChecksum: SHA1: c1dc5055f3583cfd04e110d0ab5c91448f8043af
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-site-plugin
+
+PackageName: maven-site-plugin
+SPDXID: SPDXRef-Package-maven-site-plugin- Plugin org.apache.maven.plugins
+PackageVersion:  Plugin org.apache.maven.plugins
+PackageSupplier: Organization: maven-site-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact/Failed to retrieve plugin descriptor for org.apache.maven.plugins/maven-site-plugin/ Plugin org.apache.maven.plugins
+FilesAnalyzed: false
+PackageChecksum: SHA1: 0a660974fe3e81de94e0f70dcc798b0a4f18601e
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-surefire-plugin
+
+PackageName: maven-surefire-plugin
+SPDXID: SPDXRef-Package-maven-surefire-plugin- Plugin org.apache.maven.plugins
+PackageVersion:  Plugin org.apache.maven.plugins
+PackageSupplier: Organization: maven-surefire-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact/Failed to retrieve plugin descriptor for org.apache.maven.plugins/maven-surefire-plugin/ Plugin org.apache.maven.plugins
+FilesAnalyzed: false
+PackageChecksum: SHA1: 100019959222e1c0c13d3bee514aa034d2376685
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the 2024-02-13T13
+
+PackageName: 2024-02-13T13
+SPDXID: SPDXRef-Package-2024-02-13T13-08Z
+PackageVersion: 08Z
+PackageSupplier: Organization: 2024-02-13T13
+PackageDownloadLocation: https://mvnrepository.com/artifact/Finished at/2024-02-13T13/08Z
+FilesAnalyzed: false
+PackageChecksum: SHA1: bace82be2b6b06cad37ff353f54452ec4720b471
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-antrun-plugin
+
+PackageName: maven-antrun-plugin
+SPDXID: SPDXRef-Package-maven-antrun-plugin-3.1.0 is missing, no dependency information available
+PackageVersion: 3.1.0 is missing, no dependency information available
+PackageSupplier: Organization: maven-antrun-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact/The POM for org.apache.maven.plugins/maven-antrun-plugin/3.1.0 is missing, no dependency information available
+FilesAnalyzed: false
+PackageChecksum: SHA1: b8ae7e26f7fca23ed28a3e7a39b4e33fc32919a5
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-assembly-plugin
+
+PackageName: maven-assembly-plugin
+SPDXID: SPDXRef-Package-maven-assembly-plugin-3.6.0 is missing, no dependency information available
+PackageVersion: 3.6.0 is missing, no dependency information available
+PackageSupplier: Organization: maven-assembly-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact/The POM for org.apache.maven.plugins/maven-assembly-plugin/3.6.0 is missing, no dependency information available
+FilesAnalyzed: false
+PackageChecksum: SHA1: 6381595cb9f1c465cec19ae14ce7b1785b6acdfd
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-clean-plugin
+
+PackageName: maven-clean-plugin
+SPDXID: SPDXRef-Package-maven-clean-plugin-3.2.0 is missing, no dependency information available
+PackageVersion: 3.2.0 is missing, no dependency information available
+PackageSupplier: Organization: maven-clean-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact/The POM for org.apache.maven.plugins/maven-clean-plugin/3.2.0 is missing, no dependency information available
+FilesAnalyzed: false
+PackageChecksum: SHA1: 10c987062aa8b94186a151fb61d00b58229a7a47
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-compiler-plugin
+
+PackageName: maven-compiler-plugin
+SPDXID: SPDXRef-Package-maven-compiler-plugin-3.11.0 is missing, no dependency information available
+PackageVersion: 3.11.0 is missing, no dependency information available
+PackageSupplier: Organization: maven-compiler-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact/The POM for org.apache.maven.plugins/maven-compiler-plugin/3.11.0 is missing, no dependency information available
+FilesAnalyzed: false
+PackageChecksum: SHA1: 6f317c4eab5a6ef236963bf88d736bda171033ce
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-dependency-plugin
+
+PackageName: maven-dependency-plugin
+SPDXID: SPDXRef-Package-maven-dependency-plugin-3.6.1 is missing, no dependency information available
+PackageVersion: 3.6.1 is missing, no dependency information available
+PackageSupplier: Organization: maven-dependency-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact/The POM for org.apache.maven.plugins/maven-dependency-plugin/3.6.1 is missing, no dependency information available
+FilesAnalyzed: false
+PackageChecksum: SHA1: 454728243c5e9d592dd26e4ef4626a78a51b041f
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-deploy-plugin
+
+PackageName: maven-deploy-plugin
+SPDXID: SPDXRef-Package-maven-deploy-plugin-3.1.1 is missing, no dependency information available
+PackageVersion: 3.1.1 is missing, no dependency information available
+PackageSupplier: Organization: maven-deploy-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact/The POM for org.apache.maven.plugins/maven-deploy-plugin/3.1.1 is missing, no dependency information available
+FilesAnalyzed: false
+PackageChecksum: SHA1: 18ec4df04bd88eaa8efd5a9da841881cefc50fb7
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-install-plugin
+
+PackageName: maven-install-plugin
+SPDXID: SPDXRef-Package-maven-install-plugin-3.1.1 is missing, no dependency information available
+PackageVersion: 3.1.1 is missing, no dependency information available
+PackageSupplier: Organization: maven-install-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact/The POM for org.apache.maven.plugins/maven-install-plugin/3.1.1 is missing, no dependency information available
+FilesAnalyzed: false
+PackageChecksum: SHA1: bf69d776115b0bbfda6cf8fc95e046581527377c
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-jar-plugin
+
+PackageName: maven-jar-plugin
+SPDXID: SPDXRef-Package-maven-jar-plugin-3.3.0 is missing, no dependency information available
+PackageVersion: 3.3.0 is missing, no dependency information available
+PackageSupplier: Organization: maven-jar-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact/The POM for org.apache.maven.plugins/maven-jar-plugin/3.3.0 is missing, no dependency information available
+FilesAnalyzed: false
+PackageChecksum: SHA1: 58a31cf79dee7603f8fcaa3d2406f52ad9cb7a89
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-release-plugin
+
+PackageName: maven-release-plugin
+SPDXID: SPDXRef-Package-maven-release-plugin-3.0.1 is missing, no dependency information available
+PackageVersion: 3.0.1 is missing, no dependency information available
+PackageSupplier: Organization: maven-release-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact/The POM for org.apache.maven.plugins/maven-release-plugin/3.0.1 is missing, no dependency information available
+FilesAnalyzed: false
+PackageChecksum: SHA1: fd7254958a4a2baf03d756cc819ec6e7892ab64c
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-resources-plugin
+
+PackageName: maven-resources-plugin
+SPDXID: SPDXRef-Package-maven-resources-plugin-3.3.1 is missing, no dependency information available
+PackageVersion: 3.3.1 is missing, no dependency information available
+PackageSupplier: Organization: maven-resources-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact/The POM for org.apache.maven.plugins/maven-resources-plugin/3.3.1 is missing, no dependency information available
+FilesAnalyzed: false
+PackageChecksum: SHA1: c1dc5055f3583cfd04e110d0ab5c91448f8043af
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-site-plugin
+
+PackageName: maven-site-plugin
+SPDXID: SPDXRef-Package-maven-site-plugin-3.12.1 is missing, no dependency information available
+PackageVersion: 3.12.1 is missing, no dependency information available
+PackageSupplier: Organization: maven-site-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact/The POM for org.apache.maven.plugins/maven-site-plugin/3.12.1 is missing, no dependency information available
+FilesAnalyzed: false
+PackageChecksum: SHA1: 0a660974fe3e81de94e0f70dcc798b0a4f18601e
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-case3a
+Relationship: SPDXRef-Package-case3a DEPENDS_ON SPDXRef-Package-maven-clean-plugin-3.2.0 is missing, no dependency information available
+Relationship: SPDXRef-Package-case3a DEPENDS_ON SPDXRef-Package-maven-jar-plugin-3.3.0 is missing, no dependency information available
+Relationship: SPDXRef-Package-case3a DEPENDS_ON SPDXRef-Package-maven-site-plugin-3.12.1 is missing, no dependency information available
+Relationship: SPDXRef-Package-case3a DEPENDS_ON SPDXRef-Package-jackson-databind-2.15.2
+Relationship: SPDXRef-Package-case3a DEPENDS_ON SPDXRef-Package-maven-assembly-plugin-3.6.0 is missing, no dependency information available
+Relationship: SPDXRef-Package-case3a DEPENDS_ON SPDXRef-Package-maven-deploy-plugin-3.1.1 is missing, no dependency information available
+Relationship: SPDXRef-Package-case3a DEPENDS_ON SPDXRef-Package-maven-install-plugin-3.1.1 is missing, no dependency information available
+Relationship: SPDXRef-Package-case3a DEPENDS_ON SPDXRef-Package-maven-resources-plugin-3.3.1 is missing, no dependency information available
+Relationship: SPDXRef-Package-case3a DEPENDS_ON SPDXRef-Package-2024-02-13T13-08Z
+Relationship: SPDXRef-Package-case3a DEPENDS_ON SPDXRef-Package-maven-antrun-plugin-3.1.0 is missing, no dependency information available
+Relationship: SPDXRef-Package-case3a DEPENDS_ON SPDXRef-Package-maven-compiler-plugin-3.11.0 is missing, no dependency information available
+Relationship: SPDXRef-Package-case3a DEPENDS_ON SPDXRef-Package-guava-33.0.0-jre
+Relationship: SPDXRef-Package-case3a DEPENDS_ON SPDXRef-Package-junit-jupiter-api-5.10.0
+Relationship: SPDXRef-Package-case3a DEPENDS_ON SPDXRef-Package-maven-dependency-plugin-3.6.1 is missing, no dependency information available
+Relationship: SPDXRef-Package-case3a DEPENDS_ON SPDXRef-Package-maven-release-plugin-3.0.1 is missing, no dependency information available
+Relationship: SPDXRef-Package-case3a DEPENDS_ON SPDXRef-Package-maven-surefire-plugin- Plugin org.apache.maven.plugins

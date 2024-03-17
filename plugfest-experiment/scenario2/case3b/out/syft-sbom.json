@@ -1,0 +1,2792 @@
+{
+  "artifacts": [
+    {
+      "id": "fa60405c4feabc70",
+      "name": "apiguardian-api",
+      "version": "1.1.2",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/lib/apiguardian-api-1.1.2.jar",
+          "accessPath": "/lib/apiguardian-api-1.1.2.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache-2.0",
+          "spdxExpression": "Apache-2.0",
+          "type": "concluded",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/lib/apiguardian-api-1.1.2.jar",
+              "accessPath": "/lib/apiguardian-api-1.1.2.jar",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apiguardian-api:apiguardian-api:1.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apiguardian-api:apiguardian_api:1.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apiguardian-org:apiguardian-api:1.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apiguardian-org:apiguardian_api:1.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apiguardian_api:apiguardian-api:1.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apiguardian_api:apiguardian_api:1.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apiguardian_org:apiguardian-api:1.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apiguardian_org:apiguardian_api:1.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apiguardian:apiguardian-api:1.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apiguardian:apiguardian_api:1.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:api:apiguardian-api:1.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:api:apiguardian_api:1.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apiguardian-api:api:1.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apiguardian-org:api:1.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apiguardian_api:api:1.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apiguardian_org:api:1.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apiguardian:api:1.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:api:api:1.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apiguardian.api/apiguardian-api@1.1.2",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/lib/apiguardian-api-1.1.2.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Bnd-LastModified",
+              "value": "1624798392241"
+            },
+            {
+              "key": "Build-Date",
+              "value": "2021-06-27"
+            },
+            {
+              "key": "Build-Revision",
+              "value": "aa952a1b9d5b4e9cc0af853e2c140c2455b397be"
+            },
+            {
+              "key": "Build-Time",
+              "value": "14:53:10.089+0200"
+            },
+            {
+              "key": "Built-By",
+              "value": "@API Guardian Team"
+            },
+            {
+              "key": "Bundle-Description",
+              "value": "@API Guardian"
+            },
+            {
+              "key": "Bundle-DocURL",
+              "value": "https://github.com/apiguardian-team/apiguardian"
+            },
+            {
+              "key": "Bundle-ManifestVersion",
+              "value": "2"
+            },
+            {
+              "key": "Bundle-Name",
+              "value": "apiguardian-api"
+            },
+            {
+              "key": "Bundle-SymbolicName",
+              "value": "org.apiguardian.api"
+            },
+            {
+              "key": "Bundle-Vendor",
+              "value": "apiguardian.org"
+            },
+            {
+              "key": "Bundle-Version",
+              "value": "1.1.2"
+            },
+            {
+              "key": "Created-By",
+              "value": "11.0.11 (AdoptOpenJDK)"
+            },
+            {
+              "key": "Export-Package",
+              "value": "org.apiguardian.api;version=\"1.1.2\""
+            },
+            {
+              "key": "Implementation-Title",
+              "value": "apiguardian-api"
+            },
+            {
+              "key": "Implementation-Vendor",
+              "value": "apiguardian.org"
+            },
+            {
+              "key": "Implementation-Version",
+              "value": "1.1.2"
+            },
+            {
+              "key": "Require-Capability",
+              "value": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.6))\""
+            },
+            {
+              "key": "Specification-Title",
+              "value": "apiguardian-api"
+            },
+            {
+              "key": "Specification-Vendor",
+              "value": "apiguardian.org"
+            },
+            {
+              "key": "Specification-Version",
+              "value": "1.1.2"
+            },
+            {
+              "key": "Tool",
+              "value": "Bnd-5.3.0.202102221516"
+            }
+          ]
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "a231e0d844d2721b0fa1b238006d15c6ded6842a"
+          }
+        ]
+      }
+    },
+    {
+      "id": "46e08ce38870ffee",
+      "name": "checker-qual",
+      "version": "3.41.0",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/lib/checker-qual-3.41.0.jar",
+          "accessPath": "/lib/checker-qual-3.41.0.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "MIT",
+          "spdxExpression": "MIT",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/lib/checker-qual-3.41.0.jar",
+              "accessPath": "/lib/checker-qual-3.41.0.jar",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:checkerframework:checker-qual:3.41.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:checkerframework:checker_qual:3.41.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:checker-qual:checker-qual:3.41.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:checker-qual:checker_qual:3.41.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:checker_qual:checker-qual:3.41.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:checker_qual:checker_qual:3.41.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:checkerframework:checker:3.41.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:checkerframework:qual:3.41.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:checker-qual:checker:3.41.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:checker:checker-qual:3.41.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:checker:checker_qual:3.41.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:checker_qual:checker:3.41.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:checker-qual:qual:3.41.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:checker_qual:qual:3.41.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qual:checker-qual:3.41.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qual:checker_qual:3.41.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:checker:checker:3.41.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:checker:qual:3.41.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qual:checker:3.41.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:qual:qual:3.41.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.checkerframework.checker.qual/checker-qual@3.41.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/lib/checker-qual-3.41.0.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Automatic-Module-Name",
+              "value": "org.checkerframework.checker.qual"
+            },
+            {
+              "key": "Bnd-LastModified",
+              "value": "1701706808820"
+            },
+            {
+              "key": "Bundle-License",
+              "value": "MIT"
+            },
+            {
+              "key": "Bundle-ManifestVersion",
+              "value": "2"
+            },
+            {
+              "key": "Bundle-Name",
+              "value": "checker-qual"
+            },
+            {
+              "key": "Bundle-SymbolicName",
+              "value": "checker-qual"
+            },
+            {
+              "key": "Bundle-Version",
+              "value": "3.41.0"
+            },
+            {
+              "key": "Created-By",
+              "value": "17.0.9 (Red Hat, Inc.)"
+            },
+            {
+              "key": "Export-Package",
+              "value": "org.checkerframework.checker.builder.qual;version=\"3.41.0\",org.checkerframework.checker.calledmethods.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.checker.compilermsgs.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.checker.fenum.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.checker.formatter.qual;uses:=\"org.checkerframework.checker.nullness.qual,org.checkerframework.dataflow.qual,org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.checker.guieffect.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.checker.i18n.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.checker.i18nformatter.qual;uses:=\"org.checkerframework.checker.nullness.qual,org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.checker.index.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.checker.initialization.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.checker.interning.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.checker.lock.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.checker.mustcall.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.checker.nullness.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.checker.optional.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.checker.propkey.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.checker.regex.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.checker.signature.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.checker.signedness.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.checker.tainting.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.checker.units.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.common.aliasing.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.common.initializedfields.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.common.reflection.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.common.returnsreceiver.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.common.subtyping.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.common.util.report.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.common.value.qual;uses:=\"org.checkerframework.framework.qual\";version=\"3.41.0\",org.checkerframework.dataflow.qual;version=\"3.41.0\",org.checkerframework.framework.qual;version=\"3.41.0\""
+            },
+            {
+              "key": "Implementation-URL",
+              "value": "https://checkerframework.org"
+            },
+            {
+              "key": "Implementation-Version",
+              "value": "3.41.0"
+            },
+            {
+              "key": "Import-Package",
+              "value": "org.checkerframework.checker.nullness.qual,org.checkerframework.dataflow.qual,org.checkerframework.framework.qual"
+            },
+            {
+              "key": "Require-Capability",
+              "value": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.8))\""
+            },
+            {
+              "key": "Tool",
+              "value": "Bnd-6.4.0.202211291949"
+            }
+          ]
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "08be6df7f1e9bccb19f8f351b3651f0bac2f5e0c"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7848874e3ddb41c8",
+      "name": "error_prone_annotations",
+      "version": "2.23.0",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/lib/error_prone_annotations-2.23.0.jar",
+          "accessPath": "/lib/error_prone_annotations-2.23.0.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "\"Apache 2.0\";link=\"http://www.apache.org/licenses/LICENSE-2.0.txt\"",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/lib/error_prone_annotations-2.23.0.jar",
+              "accessPath": "/lib/error_prone_annotations-2.23.0.jar",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:error-prone-annotations:error-prone-annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:error-prone-annotations:error_prone_annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:error_prone_annotations:error-prone-annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:error_prone_annotations:error_prone_annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:annotations:error-prone-annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:annotations:error_prone_annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:error-prone-annotations:annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:error-prone:error-prone-annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:error-prone:error_prone_annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:error_prone:error-prone-annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:error_prone:error_prone_annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:error_prone_annotations:annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:errorprone:error-prone-annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:errorprone:error_prone_annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:error-prone-annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:error_prone_annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:error:error-prone-annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:error:error_prone_annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:annotations:annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:error-prone:annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:error_prone:annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:errorprone:annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:error:annotations:2.23.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.23.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/lib/error_prone_annotations-2.23.0.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Created-By",
+              "value": "Maven JAR Plugin 3.2.2"
+            },
+            {
+              "key": "Build-Jdk-Spec",
+              "value": "17"
+            },
+            {
+              "key": "Automatic-Module-Name",
+              "value": "com.google.errorprone.annotations"
+            },
+            {
+              "key": "Bundle-Description",
+              "value": "Error Prone is a static analysis tool for Java thatcatches common programming mistakes at compile-time."
+            },
+            {
+              "key": "Bundle-DocURL",
+              "value": "https://errorprone.info/error_prone_annotations"
+            },
+            {
+              "key": "Bundle-License",
+              "value": "\"Apache 2.0\";link=\"http://www.apache.org/licenses/LICENSE-2.0.txt\""
+            },
+            {
+              "key": "Bundle-ManifestVersion",
+              "value": "2"
+            },
+            {
+              "key": "Bundle-Name",
+              "value": "error-prone annotations"
+            },
+            {
+              "key": "Bundle-SCM",
+              "value": "url=\"https://github.com/google/error-prone/error_prone_annotations\",connection=\"scm:git:https://github.com/google/error-prone.git/error_prone_annotations\",developer-connection=\"scm:git:git@github.com:google/error-prone.git/error_prone_annotations\",tag=HEAD"
+            },
+            {
+              "key": "Bundle-SymbolicName",
+              "value": "com.google.errorprone.annotations"
+            },
+            {
+              "key": "Bundle-Vendor",
+              "value": "Google LLC"
+            },
+            {
+              "key": "Bundle-Version",
+              "value": "2.23.0"
+            },
+            {
+              "key": "Export-Package",
+              "value": "com.google.errorprone.annotations;uses:=\"javax.lang.model.element\";version=\"2.23.0\",com.google.errorprone.annotations.concurrent;version=\"2.23.0\""
+            },
+            {
+              "key": "Import-Package",
+              "value": "javax.lang.model.element"
+            },
+            {
+              "key": "Require-Capability",
+              "value": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.8))\""
+            }
+          ]
+        },
+        "pomProperties": {
+          "path": "META-INF/maven/com.google.errorprone/error_prone_annotations/pom.properties",
+          "name": "",
+          "groupId": "com.google.errorprone",
+          "artifactId": "error_prone_annotations",
+          "version": "2.23.0"
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "43a27853b6c7d54893e0b1997c2c778c347179eb"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2e02337b7f5c1bc0",
+      "name": "failureaccess",
+      "version": "1.0.2",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/lib/failureaccess-1.0.2.jar",
+          "accessPath": "/lib/failureaccess-1.0.2.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/lib/failureaccess-1.0.2.jar",
+              "accessPath": "/lib/failureaccess-1.0.2.jar",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:failureaccess:failureaccess:1.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:failureaccess:1.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:guava:failureaccess:1.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/failureaccess@1.0.2",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/lib/failureaccess-1.0.2.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Automatic-Module-Name",
+              "value": "com.google.common.util.concurrent.internal"
+            },
+            {
+              "key": "Bnd-LastModified",
+              "value": "1697548556686"
+            },
+            {
+              "key": "Build-Jdk-Spec",
+              "value": "11"
+            },
+            {
+              "key": "Bundle-Description",
+              "value": "Contains    com.google.common.util.concurrent.internal.InternalFutureFailureAccess and    InternalFutures. Most users will never need to use this artifact. Its    classes are conceptuallya part of Guava, but they're in this separate    artifact so that Android libraries can use them without pulling in all of    Guava (justas they can use ListenableFuture by depending on the    listenablefuture artifact)."
+            },
+            {
+              "key": "Bundle-DocURL",
+              "value": "https://github.com/google/guava/"
+            },
+            {
+              "key": "Bundle-License",
+              "value": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+            },
+            {
+              "key": "Bundle-ManifestVersion",
+              "value": "2"
+            },
+            {
+              "key": "Bundle-Name",
+              "value": "Guava InternalFutureFailureAccess and InternalFutures"
+            },
+            {
+              "key": "Bundle-SymbolicName",
+              "value": "com.google.guava.failureaccess"
+            },
+            {
+              "key": "Bundle-Version",
+              "value": "1.0.2"
+            },
+            {
+              "key": "Created-By",
+              "value": "Apache Maven Bundle Plugin 5.1.8"
+            },
+            {
+              "key": "Export-Package",
+              "value": "com.google.common.util.concurrent.internal;version=\"1.0.2\""
+            },
+            {
+              "key": "Require-Capability",
+              "value": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.7))\""
+            },
+            {
+              "key": "Tool",
+              "value": "Bnd-6.3.1.202206071316"
+            }
+          ]
+        },
+        "pomProperties": {
+          "path": "META-INF/maven/com.google.guava/failureaccess/pom.properties",
+          "name": "",
+          "groupId": "com.google.guava",
+          "artifactId": "failureaccess",
+          "version": "1.0.2"
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "c4a06a64e650562f30b7bf9aaec1bfed43aca12b"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0bcdaed7de00132c",
+      "name": "guava",
+      "version": "33.0.0-jre",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/lib/guava-33.0.0-jre.jar",
+          "accessPath": "/lib/guava-33.0.0-jre.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/lib/guava-33.0.0-jre.jar",
+              "accessPath": "/lib/guava-33.0.0-jre.jar",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:google:guava:33.0.0-jre:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:guava:guava:33.0.0-jre:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/guava@33.0.0-jre",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/lib/guava-33.0.0-jre.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Automatic-Module-Name",
+              "value": "com.google.common"
+            },
+            {
+              "key": "Build-Jdk-Spec",
+              "value": "11"
+            },
+            {
+              "key": "Bundle-Description",
+              "value": "Guava is a suite of core and expanded libraries that include    utility classes, Google's collections, I/O classes, andmuch more."
+            },
+            {
+              "key": "Bundle-DocURL",
+              "value": "https://github.com/google/guava/"
+            },
+            {
+              "key": "Bundle-License",
+              "value": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+            },
+            {
+              "key": "Bundle-ManifestVersion",
+              "value": "2"
+            },
+            {
+              "key": "Bundle-Name",
+              "value": "Guava: Google Core Libraries for Java"
+            },
+            {
+              "key": "Bundle-SymbolicName",
+              "value": "com.google.guava"
+            },
+            {
+              "key": "Bundle-Version",
+              "value": "33.0.0.jre"
+            },
+            {
+              "key": "Created-By",
+              "value": "Apache Maven Bundle Plugin 5.1.8"
+            },
+            {
+              "key": "Export-Package",
+              "value": "com.google.common.annotations;version=\"33.0.0\",com.google.common.base;version=\"33.0.0\";uses:=\"javax.annotation\",com.google.common.cache;version=\"33.0.0\";uses:=\"com.google.common.base,com.google.common.collect,com.google.common.util.concurrent,javax.annotation\",com.google.common.collect;version=\"33.0.0\";uses:=\"com.google.common.base,javax.annotation\",com.google.common.escape;version=\"33.0.0\";uses:=\"com.google.common.base,javax.annotation\",com.google.common.eventbus;version=\"33.0.0\",com.google.common.graph;version=\"33.0.0\";uses:=\"com.google.common.collect,javax.annotation\",com.google.common.hash;version=\"33.0.0\";uses:=\"com.google.common.base,javax.annotation\",com.google.common.html;version=\"33.0.0\";uses:=\"com.google.common.escape\",com.google.common.io;version=\"33.0.0\";uses:=\"com.google.common.base,com.google.common.collect,com.google.common.graph,com.google.common.hash,javax.annotation\",com.google.common.math;version=\"33.0.0\";uses:=\"javax.annotation\",com.google.common.net;version=\"33.0.0\";uses:=\"com.google.common.base,com.google.common.collect,com.google.common.escape,javax.annotation\",com.google.common.primitives;version=\"33.0.0\";uses:=\"com.google.common.base,javax.annotation\",com.google.common.reflect;version=\"33.0.0\";uses:=\"com.google.common.collect,com.google.common.io,javax.annotation\",com.google.common.util.concurrent;version=\"33.0.0\";uses:=\"com.google.common.base,com.google.common.collect,com.google.common.util.concurrent.internal,javax.annotation\",com.google.common.xml;version=\"33.0.0\";uses:=\"com.google.common.escape\""
+            },
+            {
+              "key": "Import-Package",
+              "value": "com.google.common.util.concurrent.internal;version=\"[1.0,2)\",javax.annotation;resolution:=optional;version=\"[3.0,4)\",javax.crypto;resolution:=optional,javax.crypto.spec;resolution:=optional,sun.misc;resolution:=optional"
+            },
+            {
+              "key": "Require-Capability",
+              "value": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.8))\""
+            },
+            {
+              "key": "Tool",
+              "value": "Bnd-6.3.1.202206071316"
+            }
+          ]
+        },
+        "pomProperties": {
+          "path": "META-INF/maven/com.google.guava/guava/pom.properties",
+          "name": "",
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "33.0.0-jre"
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "161ba27964a62f241533807a46b8711b13c1d94b"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4b557584ad2646ab",
+      "name": "j2objc-annotations",
+      "version": "2.8",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/lib/j2objc-annotations-2.8.jar",
+          "accessPath": "/lib/j2objc-annotations-2.8.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache License, Version 2.0",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [
+            "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          ],
+          "locations": [
+            {
+              "path": "/lib/j2objc-annotations-2.8.jar",
+              "accessPath": "/lib/j2objc-annotations-2.8.jar",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:j2objc-annotations:j2objc-annotations:2.8:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:j2objc-annotations:j2objc_annotations:2.8:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:j2objc_annotations:j2objc-annotations:2.8:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:j2objc_annotations:j2objc_annotations:2.8:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:j2objc-annotations:2.8:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:j2objc_annotations:2.8:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:j2objc-annotations:j2objc:2.8:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:j2objc:j2objc-annotations:2.8:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:j2objc:j2objc_annotations:2.8:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:j2objc_annotations:j2objc:2.8:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:j2objc:2.8:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:j2objc:j2objc:2.8:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.google.j2objc/j2objc-annotations@2.8",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/lib/j2objc-annotations-2.8.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Archiver-Version",
+              "value": "Plexus Archiver"
+            },
+            {
+              "key": "Created-By",
+              "value": "Apache Maven 3.8.5"
+            },
+            {
+              "key": "Built-By",
+              "value": "tball"
+            },
+            {
+              "key": "Build-Jdk",
+              "value": "11.0.16.1"
+            }
+          ]
+        },
+        "pomProperties": {
+          "path": "META-INF/maven/com.google.j2objc/j2objc-annotations/pom.properties",
+          "name": "",
+          "groupId": "com.google.j2objc",
+          "artifactId": "j2objc-annotations",
+          "version": "2.8"
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "c85270e307e7b822f1086b93689124b89768e273"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8d7a41b1e833bb89",
+      "name": "jackson-annotations",
+      "version": "2.15.2",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/lib/jackson-annotations-2.15.2.jar",
+          "accessPath": "/lib/jackson-annotations-2.15.2.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/lib/jackson-annotations-2.15.2.jar",
+              "accessPath": "/lib/jackson-annotations-2.15.2.jar",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:jackson-annotations:jackson-annotations:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-annotations:jackson_annotations:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_annotations:jackson-annotations:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_annotations:jackson_annotations:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson-annotations:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson_annotations:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-annotations:jackson:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson-annotations:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson_annotations:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_annotations:jackson:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:core:jackson-annotations:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:core:jackson_annotations:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:core:jackson:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.15.2",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/lib/jackson-annotations-2.15.2.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Bundle-Description",
+              "value": "Core annotations used for value types, used by Jackson data binding package."
+            },
+            {
+              "key": "Implementation-Title",
+              "value": "Jackson-annotations"
+            },
+            {
+              "key": "Bundle-License",
+              "value": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+            },
+            {
+              "key": "Bundle-SymbolicName",
+              "value": "com.fasterxml.jackson.core.jackson-annotations"
+            },
+            {
+              "key": "Implementation-Version",
+              "value": "2.15.2"
+            },
+            {
+              "key": "Bundle-ManifestVersion",
+              "value": "2"
+            },
+            {
+              "key": "Specification-Vendor",
+              "value": "FasterXML"
+            },
+            {
+              "key": "Implementation-Vendor-Id",
+              "value": "com.fasterxml.jackson.core"
+            },
+            {
+              "key": "Specification-Title",
+              "value": "Jackson-annotations"
+            },
+            {
+              "key": "Bundle-DocURL",
+              "value": "https://github.com/FasterXML/jackson"
+            },
+            {
+              "key": "Bundle-Vendor",
+              "value": "FasterXML"
+            },
+            {
+              "key": "Require-Capability",
+              "value": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.6))\""
+            },
+            {
+              "key": "Tool",
+              "value": "Bnd-6.3.1.202206071316"
+            },
+            {
+              "key": "Implementation-Vendor",
+              "value": "FasterXML"
+            },
+            {
+              "key": "Export-Package",
+              "value": "com.fasterxml.jackson.annotation;version=\"2.15.2\""
+            },
+            {
+              "key": "Bundle-Name",
+              "value": "Jackson-annotations"
+            },
+            {
+              "key": "Bundle-Version",
+              "value": "2.15.2"
+            },
+            {
+              "key": "X-Compile-Target-JDK",
+              "value": "1.6"
+            },
+            {
+              "key": "X-Compile-Source-JDK",
+              "value": "1.6"
+            },
+            {
+              "key": "Build-Jdk-Spec",
+              "value": "1.8"
+            },
+            {
+              "key": "Created-By",
+              "value": "Apache Maven Bundle Plugin 5.1.8"
+            },
+            {
+              "key": "Specification-Version",
+              "value": "2.15.2"
+            }
+          ]
+        },
+        "pomProperties": {
+          "path": "META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.properties",
+          "name": "",
+          "groupId": "com.fasterxml.jackson.core",
+          "artifactId": "jackson-annotations",
+          "version": "2.15.2"
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "4724a65ac8e8d156a24898d50fd5dbd3642870b8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8c2f3fb7d8a145bf",
+      "name": "jackson-core",
+      "version": "2.15.2",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/lib/jackson-core-2.15.2.jar",
+          "accessPath": "/lib/jackson-core-2.15.2.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/lib/jackson-core-2.15.2.jar",
+              "accessPath": "/lib/jackson-core-2.15.2.jar",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:jackson-core:jackson-core:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-core:jackson_core:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_core:jackson-core:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_core:jackson_core:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson-core:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson_core:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-core:jackson:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson-core:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson_core:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_core:jackson:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:core:jackson-core:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:core:jackson_core:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-core:core:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_core:core:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:core:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:core:jackson:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:core:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:core:core:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.2",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/lib/jackson-core-2.15.2.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Bundle-License",
+              "value": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+            },
+            {
+              "key": "Bundle-SymbolicName",
+              "value": "com.fasterxml.jackson.core.jackson-core"
+            },
+            {
+              "key": "Implementation-Vendor-Id",
+              "value": "com.fasterxml.jackson.core"
+            },
+            {
+              "key": "Specification-Title",
+              "value": "Jackson-core"
+            },
+            {
+              "key": "Bundle-DocURL",
+              "value": "https://github.com/FasterXML/jackson-core"
+            },
+            {
+              "key": "Import-Package",
+              "value": "com.fasterxml.jackson.core;version=\"[2.15,3)\",com.fasterxml.jackson.core.async;version=\"[2.15,3)\",com.fasterxml.jackson.core.base;version=\"[2.15,3)\",com.fasterxml.jackson.core.exc;version=\"[2.15,3)\",com.fasterxml.jackson.core.format;version=\"[2.15,3)\",com.fasterxml.jackson.core.io;version=\"[2.15,3)\",com.fasterxml.jackson.core.io.schubfach;version=\"[2.15,3)\",com.fasterxml.jackson.core.json;version=\"[2.15,3)\",com.fasterxml.jackson.core.json.async;version=\"[2.15,3)\",com.fasterxml.jackson.core.sym;version=\"[2.15,3)\",com.fasterxml.jackson.core.type;version=\"[2.15,3)\",com.fasterxml.jackson.core.util;version=\"[2.15,3)\""
+            },
+            {
+              "key": "Require-Capability",
+              "value": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.8))\""
+            },
+            {
+              "key": "Export-Package",
+              "value": "com.fasterxml.jackson.core;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.core.async,com.fasterxml.jackson.core.exc,com.fasterxml.jackson.core.format,com.fasterxml.jackson.core.io,com.fasterxml.jackson.core.json,com.fasterxml.jackson.core.sym,com.fasterxml.jackson.core.type,com.fasterxml.jackson.core.util\",com.fasterxml.jackson.core.async;version=\"2.15.2\",com.fasterxml.jackson.core.base;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.core,com.fasterxml.jackson.core.exc,com.fasterxml.jackson.core.io,com.fasterxml.jackson.core.json,com.fasterxml.jackson.core.util\",com.fasterxml.jackson.core.exc;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.core,com.fasterxml.jackson.core.util\",com.fasterxml.jackson.core.filter;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.core,com.fasterxml.jackson.core.util\",com.fasterxml.jackson.core.format;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.core\",com.fasterxml.jackson.core.io;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.core,com.fasterxml.jackson.core.util\",com.fasterxml.jackson.core.io.schubfach;version=\"2.15.2\",com.fasterxml.jackson.core.json;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.core,com.fasterxml.jackson.core.base,com.fasterxml.jackson.core.format,com.fasterxml.jackson.core.io,com.fasterxml.jackson.core.sym,com.fasterxml.jackson.core.util\",com.fasterxml.jackson.core.json.async;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.core,com.fasterxml.jackson.core.async,com.fasterxml.jackson.core.base,com.fasterxml.jackson.core.exc,com.fasterxml.jackson.core.io,com.fasterxml.jackson.core.sym,com.fasterxml.jackson.core.util\",com.fasterxml.jackson.core.sym;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.core.exc\",com.fasterxml.jackson.core.type;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.core\",com.fasterxml.jackson.core.util;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.core,com.fasterxml.jackson.core.exc,com.fasterxml.jackson.core.io\""
+            },
+            {
+              "key": "Bundle-Name",
+              "value": "Jackson-core"
+            },
+            {
+              "key": "Multi-Release",
+              "value": "true"
+            },
+            {
+              "key": "Build-Jdk-Spec",
+              "value": "1.8"
+            },
+            {
+              "key": "Bundle-Description",
+              "value": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON"
+            },
+            {
+              "key": "Implementation-Title",
+              "value": "Jackson-core"
+            },
+            {
+              "key": "Implementation-Version",
+              "value": "2.15.2"
+            },
+            {
+              "key": "Bundle-ManifestVersion",
+              "value": "2"
+            },
+            {
+              "key": "Specification-Vendor",
+              "value": "FasterXML"
+            },
+            {
+              "key": "Bundle-Vendor",
+              "value": "FasterXML"
+            },
+            {
+              "key": "Tool",
+              "value": "Bnd-6.3.1.202206071316"
+            },
+            {
+              "key": "Implementation-Vendor",
+              "value": "FasterXML"
+            },
+            {
+              "key": "Bundle-Version",
+              "value": "2.15.2"
+            },
+            {
+              "key": "X-Compile-Target-JDK",
+              "value": "1.8"
+            },
+            {
+              "key": "X-Compile-Source-JDK",
+              "value": "1.8"
+            },
+            {
+              "key": "Created-By",
+              "value": "Apache Maven Bundle Plugin 5.1.8"
+            },
+            {
+              "key": "Specification-Version",
+              "value": "2.15.2"
+            }
+          ]
+        },
+        "pomProperties": {
+          "path": "META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties",
+          "name": "",
+          "groupId": "com.fasterxml.jackson.core",
+          "artifactId": "jackson-core",
+          "version": "2.15.2"
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "a6fe1836469a69b3ff66037c324d75fc66ef137c"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c4e1ae704f5f7d88",
+      "name": "jackson-databind",
+      "version": "2.15.2",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/lib/jackson-databind-2.15.2.jar",
+          "accessPath": "/lib/jackson-databind-2.15.2.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/lib/jackson-databind-2.15.2.jar",
+              "accessPath": "/lib/jackson-databind-2.15.2.jar",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:jackson-databind:jackson-databind:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-databind:jackson_databind:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_databind:jackson-databind:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_databind:jackson_databind:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson-databind:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson_databind:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson-databind:jackson:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson-databind:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson_databind:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson_databind:jackson:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:core:jackson-databind:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:core:jackson_databind:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fasterxml:jackson:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jackson:jackson:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:core:jackson:2.15.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.2",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/lib/jackson-databind-2.15.2.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Bundle-License",
+              "value": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+            },
+            {
+              "key": "Bundle-SymbolicName",
+              "value": "com.fasterxml.jackson.core.jackson-databind"
+            },
+            {
+              "key": "Implementation-Vendor-Id",
+              "value": "com.fasterxml.jackson.core"
+            },
+            {
+              "key": "Specification-Title",
+              "value": "jackson-databind"
+            },
+            {
+              "key": "Bundle-DocURL",
+              "value": "https://github.com/FasterXML/jackson"
+            },
+            {
+              "key": "Import-Package",
+              "value": "com.fasterxml.jackson.annotation;version=\"[2.15,3)\",com.fasterxml.jackson.core;version=\"[2.15,3)\",com.fasterxml.jackson.core.base;version=\"[2.15,3)\",com.fasterxml.jackson.core.exc;version=\"[2.15,3)\",com.fasterxml.jackson.core.filter;version=\"[2.15,3)\",com.fasterxml.jackson.core.format;version=\"[2.15,3)\",com.fasterxml.jackson.core.io;version=\"[2.15,3)\",com.fasterxml.jackson.core.json;version=\"[2.15,3)\",com.fasterxml.jackson.core.type;version=\"[2.15,3)\",com.fasterxml.jackson.core.util;version=\"[2.15,3)\",com.fasterxml.jackson.databind;version=\"[2.15,3)\",com.fasterxml.jackson.databind.annotation;version=\"[2.15,3)\",com.fasterxml.jackson.databind.cfg;version=\"[2.15,3)\",com.fasterxml.jackson.databind.deser;version=\"[2.15,3)\",com.fasterxml.jackson.databind.deser.impl;version=\"[2.15,3)\",com.fasterxml.jackson.databind.deser.std;version=\"[2.15,3)\",com.fasterxml.jackson.databind.exc;version=\"[2.15,3)\",com.fasterxml.jackson.databind.ext;version=\"[2.15,3)\",com.fasterxml.jackson.databind.introspect;version=\"[2.15,3)\",com.fasterxml.jackson.databind.jdk14;version=\"[2.15,3)\",com.fasterxml.jackson.databind.json;version=\"[2.15,3)\",com.fasterxml.jackson.databind.jsonFormatVisitors;version=\"[2.15,3)\",com.fasterxml.jackson.databind.jsonschema;version=\"[2.15,3)\",com.fasterxml.jackson.databind.jsontype;version=\"[2.15,3)\",com.fasterxml.jackson.databind.jsontype.impl;version=\"[2.15,3)\",com.fasterxml.jackson.databind.node;version=\"[2.15,3)\",com.fasterxml.jackson.databind.ser;version=\"[2.15,3)\",com.fasterxml.jackson.databind.ser.impl;version=\"[2.15,3)\",com.fasterxml.jackson.databind.ser.std;version=\"[2.15,3)\",com.fasterxml.jackson.databind.type;version=\"[2.15,3)\",com.fasterxml.jackson.databind.util;version=\"[2.15,3)\",com.fasterxml.jackson.databind.util.internal;version=\"[2.15,3)\",javax.xml.datatype,javax.xml.namespace,javax.xml.parsers,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform.stream,org.w3c.dom,org.xml.sax,org.w3c.dom.bootstrap;resolution:=optional"
+            },
+            {
+              "key": "Require-Capability",
+              "value": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.8))\""
+            },
+            {
+              "key": "Export-Package",
+              "value": "com.fasterxml.jackson.databind;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.core.exc,com.fasterxml.jackson.core.filter,com.fasterxml.jackson.core.format,com.fasterxml.jackson.core.io,com.fasterxml.jackson.core.type,com.fasterxml.jackson.core.util,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.deser,com.fasterxml.jackson.databind.deser.impl,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsonFormatVisitors,com.fasterxml.jackson.databind.jsonschema,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.jsontype.impl,com.fasterxml.jackson.databind.node,com.fasterxml.jackson.databind.ser,com.fasterxml.jackson.databind.ser.impl,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.util\",com.fasterxml.jackson.databind.annotation;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.annotation,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.deser,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.ser,com.fasterxml.jackson.databind.util\",com.fasterxml.jackson.databind.cfg;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.core.type,com.fasterxml.jackson.core.util,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.deser,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.node,com.fasterxml.jackson.databind.ser,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.util\",com.fasterxml.jackson.databind.deser;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.core.format,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.deser.impl,com.fasterxml.jackson.databind.deser.std,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsonFormatVisitors,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.node,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.util\",com.fasterxml.jackson.databind.deser.impl;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.deser,com.fasterxml.jackson.databind.deser.std,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.util\",com.fasterxml.jackson.databind.deser.std;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.deser,com.fasterxml.jackson.databind.deser.impl,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.util\",com.fasterxml.jackson.databind.exc;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.introspect\",com.fasterxml.jackson.databind.ext;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.databind.deser,com.fasterxml.jackson.databind.deser.std,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsonFormatVisitors,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.ser,com.fasterxml.jackson.databind.ser.std,javax.xml.datatype,javax.xml.parsers,javax.xml.transform,org.w3c.dom\",com.fasterxml.jackson.databind.introspect;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.jsontype.impl,com.fasterxml.jackson.databind.ser,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.util\",com.fasterxml.jackson.databind.jdk14;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.introspect\",com.fasterxml.jackson.databind.json;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.core,com.fasterxml.jackson.core.json,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.cfg\",com.fasterxml.jackson.databind.jsonFormatVisitors;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.databind\",com.fasterxml.jackson.databind.jsonschema;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.annotation,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.node\",com.fasterxml.jackson.databind.jsontype;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.core.type,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.introspect\",com.fasterxml.jackson.databind.jsontype.impl;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.core.type,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.util\",com.fasterxml.jackson.databind.module;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.deser,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.ser,com.fasterxml.jackson.databind.type\",com.fasterxml.jackson.databind.node;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.core,com.fasterxml.jackson.core.base,com.fasterxml.jackson.core.util,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.util\",com.fasterxml.jackson.databind.ser;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.core.io,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsonFormatVisitors,com.fasterxml.jackson.databind.jsonschema,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.node,com.fasterxml.jackson.databind.ser.impl,com.fasterxml.jackson.databind.ser.std,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.util\",com.fasterxml.jackson.databind.ser.impl;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.core.io,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsonFormatVisitors,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.node,com.fasterxml.jackson.databind.ser,com.fasterxml.jackson.databind.ser.std,com.fasterxml.jackson.databind.util\",com.fasterxml.jackson.databind.ser.std;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.core.type,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsonFormatVisitors,com.fasterxml.jackson.databind.jsonschema,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.node,com.fasterxml.jackson.databind.ser,com.fasterxml.jackson.databind.ser.impl,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.util\",com.fasterxml.jackson.databind.type;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.core,com.fasterxml.jackson.core.type,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.util\",com.fasterxml.jackson.databind.util;version=\"2.15.2\";uses:=\"com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.core.base,com.fasterxml.jackson.core.io,com.fasterxml.jackson.core.json,com.fasterxml.jackson.core.util,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.util.internal\",com.fasterxml.jackson.databind.util.internal;version=\"2.15.2\""
+            },
+            {
+              "key": "Bundle-Name",
+              "value": "jackson-databind"
+            },
+            {
+              "key": "Multi-Release",
+              "value": "true"
+            },
+            {
+              "key": "Build-Jdk-Spec",
+              "value": "1.8"
+            },
+            {
+              "key": "Bundle-Description",
+              "value": "General data-binding functionality for Jackson: works on core streaming API"
+            },
+            {
+              "key": "Implementation-Title",
+              "value": "jackson-databind"
+            },
+            {
+              "key": "Implementation-Version",
+              "value": "2.15.2"
+            },
+            {
+              "key": "Bundle-ManifestVersion",
+              "value": "2"
+            },
+            {
+              "key": "Specification-Vendor",
+              "value": "FasterXML"
+            },
+            {
+              "key": "Bundle-Vendor",
+              "value": "FasterXML"
+            },
+            {
+              "key": "Tool",
+              "value": "Bnd-6.3.1.202206071316"
+            },
+            {
+              "key": "Implementation-Vendor",
+              "value": "FasterXML"
+            },
+            {
+              "key": "Bundle-Version",
+              "value": "2.15.2"
+            },
+            {
+              "key": "X-Compile-Target-JDK",
+              "value": "1.8"
+            },
+            {
+              "key": "X-Compile-Source-JDK",
+              "value": "1.8"
+            },
+            {
+              "key": "Created-By",
+              "value": "Apache Maven Bundle Plugin 5.1.8"
+            },
+            {
+              "key": "Specification-Version",
+              "value": "2.15.2"
+            }
+          ]
+        },
+        "pomProperties": {
+          "path": "META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.properties",
+          "name": "",
+          "groupId": "com.fasterxml.jackson.core",
+          "artifactId": "jackson-databind",
+          "version": "2.15.2"
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "9353b021f10c307c00328f52090de2bdb4b6ff9c"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a04679eff9babf3b",
+      "name": "jsr305",
+      "version": "3.0.2",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/lib/jsr305-3.0.2.jar",
+          "accessPath": "/lib/jsr305-3.0.2.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/lib/jsr305-3.0.2.jar",
+              "accessPath": "/lib/jsr305-3.0.2.jar",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:findbugs:jsr305:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jsr-305:jsr305:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jsr_305:jsr305:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:jsr305:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jsr305:jsr305:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:code:jsr305:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jsr:jsr305:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/lib/jsr305-3.0.2.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Bundle-Description",
+              "value": "JSR305 Annotations for Findbugs"
+            },
+            {
+              "key": "Bundle-License",
+              "value": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+            },
+            {
+              "key": "Bundle-SymbolicName",
+              "value": "org.jsr-305"
+            },
+            {
+              "key": "Archiver-Version",
+              "value": "Plexus Archiver"
+            },
+            {
+              "key": "Built-By",
+              "value": "lan"
+            },
+            {
+              "key": "Bnd-LastModified",
+              "value": "1490936130302"
+            },
+            {
+              "key": "Bundle-ManifestVersion",
+              "value": "2"
+            },
+            {
+              "key": "Tool",
+              "value": "Bnd-2.1.0.20130426-122213"
+            },
+            {
+              "key": "Export-Package",
+              "value": "javax.annotation;uses:=\"javax.annotation.meta\";version=\"3.0.2\",javax.annotation.concurrent;version=\"3.0.2\",javax.annotation.meta;uses:=\"javax.annotation\";version=\"3.0.2\""
+            },
+            {
+              "key": "Bundle-Name",
+              "value": "FindBugs-jsr305"
+            },
+            {
+              "key": "Bundle-Version",
+              "value": "3.0.2"
+            },
+            {
+              "key": "Created-By",
+              "value": "Apache Maven Bundle Plugin"
+            },
+            {
+              "key": "Build-Jdk",
+              "value": "1.8.0_101"
+            }
+          ]
+        },
+        "pomProperties": {
+          "path": "META-INF/maven/com.google.code.findbugs/jsr305/pom.properties",
+          "name": "",
+          "groupId": "com.google.code.findbugs",
+          "artifactId": "jsr305",
+          "version": "3.0.2"
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f32106fdacfd01b1",
+      "name": "junit-jupiter-api",
+      "version": "5.10.0",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/lib/junit-jupiter-api-5.10.0.jar",
+          "accessPath": "/lib/junit-jupiter-api-5.10.0.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "EPL-2.0",
+          "spdxExpression": "EPL-2.0",
+          "type": "concluded",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/lib/junit-jupiter-api-5.10.0.jar",
+              "accessPath": "/lib/junit-jupiter-api-5.10.0.jar",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter-api:junit-jupiter-api:5.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter-api:junit_jupiter_api:5.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter_api:junit-jupiter-api:5.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter_api:junit_jupiter_api:5.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter:junit-jupiter-api:5.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-jupiter:junit_jupiter_api:5.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter:junit-jupiter-api:5.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_jupiter:junit_jupiter_api:5.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-org:junit-jupiter-api:5.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-org:junit_jupiter_api:5.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_org:junit-jupiter-api:5.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_org:junit_jupiter_api:5.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit:junit-jupiter-api:5.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit:junit_jupiter_api:5.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/junit-jupiter-api/junit-jupiter-api@5.10.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/lib/junit-jupiter-api-5.10.0.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Build-Date",
+              "value": "2023-07-23"
+            },
+            {
+              "key": "Build-Revision",
+              "value": "7f619ca7ac9ecd1b20cc01c44a4df98f5fb67804"
+            },
+            {
+              "key": "Build-Time",
+              "value": "14:51:13.722+0200"
+            },
+            {
+              "key": "Built-By",
+              "value": "JUnit Team"
+            },
+            {
+              "key": "Bundle-ManifestVersion",
+              "value": "2"
+            },
+            {
+              "key": "Bundle-Name",
+              "value": "JUnit Jupiter API"
+            },
+            {
+              "key": "Bundle-SymbolicName",
+              "value": "junit-jupiter-api"
+            },
+            {
+              "key": "Bundle-Version",
+              "value": "5.10.0"
+            },
+            {
+              "key": "Created-By",
+              "value": "17.0.5 (BellSoft 17.0.5+8-LTS)"
+            },
+            {
+              "key": "Export-Package",
+              "value": "org.junit.jupiter.api;version=\"5.10.0\";status=STABLE;uses:=\"kotlin,kotlin.jvm.functions,kotlin.jvm.internal,org.apiguardian.api,org.junit.jupiter.api.function,org.junit.jupiter.api.parallel,org.junit.platform.commons.annotation,org.opentest4j\",org.junit.jupiter.api.condition;version=\"5.10.0\";status=STABLE;uses:=\"org.apiguardian.api,org.junit.jupiter.api.extension\",org.junit.jupiter.api.extension;version=\"5.10.0\";status=STABLE;uses:=\"org.apiguardian.api,org.junit.jupiter.api,org.junit.jupiter.api.function,org.junit.jupiter.api.parallel,org.junit.platform.commons\",org.junit.jupiter.api.extension.support;version=\"5.10.0\";status=STABLE;uses:=\"org.apiguardian.api,org.junit.jupiter.api.extension\",org.junit.jupiter.api.function;version=\"5.10.0\";status=STABLE;uses:=\"org.apiguardian.api\",org.junit.jupiter.api.io;version=\"5.10.0\";status=STABLE;uses:=\"org.apiguardian.api,org.junit.jupiter.api.extension\",org.junit.jupiter.api.parallel;version=\"5.10.0\";status=STABLE;uses:=\"org.apiguardian.api\""
+            },
+            {
+              "key": "Implementation-Title",
+              "value": "junit-jupiter-api"
+            },
+            {
+              "key": "Implementation-Vendor",
+              "value": "junit.org"
+            },
+            {
+              "key": "Implementation-Version",
+              "value": "5.10.0"
+            },
+            {
+              "key": "Import-Package",
+              "value": "org.apiguardian.api;resolution:=optional;version=\"[1.1,2)\",org.junit.platform.commons.logging;status=INTERNAL;version=\"[1.10,2)\",kotlin;resolution:=optional,kotlin.collections;resolution:=optional,kotlin.jvm.functions;resolution:=optional,kotlin.jvm.internal;resolution:=optional,org.junit.jupiter.api;version=\"[5.10,6)\",org.junit.jupiter.api.extension;version=\"[5.10,6)\",org.junit.jupiter.api.function;version=\"[5.10,6)\",org.junit.jupiter.api.parallel;version=\"[5.10,6)\",org.junit.platform.commons;version=\"[1.10,2)\",org.junit.platform.commons.annotation;version=\"[1.10,2)\",org.junit.platform.commons.function;version=\"[1.10,2)\",org.junit.platform.commons.support;version=\"[1.10,2)\",org.junit.platform.commons.util;version=\"[1.10,2)\",org.opentest4j;version=\"[1.3,2)\""
+            },
+            {
+              "key": "Require-Capability",
+              "value": "org.junit.platform.engine;filter:=\"(&(org.junit.platform.engine=junit-jupiter)(version>=5.10.0)(!(version>=6)))\";effective:=active,osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.8))\""
+            },
+            {
+              "key": "Specification-Title",
+              "value": "junit-jupiter-api"
+            },
+            {
+              "key": "Specification-Vendor",
+              "value": "junit.org"
+            },
+            {
+              "key": "Specification-Version",
+              "value": "5.10.0"
+            }
+          ]
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "2fe4ba3d31d5067878e468c96aa039005a9134d3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3a2dc73a8e0bce31",
+      "name": "junit-platform-commons",
+      "version": "1.10.0",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/lib/junit-platform-commons-1.10.0.jar",
+          "accessPath": "/lib/junit-platform-commons-1.10.0.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "EPL-2.0",
+          "spdxExpression": "EPL-2.0",
+          "type": "concluded",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/lib/junit-platform-commons-1.10.0.jar",
+              "accessPath": "/lib/junit-platform-commons-1.10.0.jar",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:junit-platform-commons:junit-platform-commons:1.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-platform-commons:junit_platform_commons:1.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_platform_commons:junit-platform-commons:1.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_platform_commons:junit_platform_commons:1.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-platform:junit-platform-commons:1.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-platform:junit_platform_commons:1.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_platform:junit-platform-commons:1.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_platform:junit_platform_commons:1.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-org:junit-platform-commons:1.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit-org:junit_platform_commons:1.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_org:junit-platform-commons:1.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit_org:junit_platform_commons:1.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit:junit-platform-commons:1.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:junit:junit_platform_commons:1.10.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/junit-platform-commons/junit-platform-commons@1.10.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/lib/junit-platform-commons-1.10.0.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Build-Date",
+              "value": "2023-07-23"
+            },
+            {
+              "key": "Build-Revision",
+              "value": "7f619ca7ac9ecd1b20cc01c44a4df98f5fb67804"
+            },
+            {
+              "key": "Build-Time",
+              "value": "14:51:13.722+0200"
+            },
+            {
+              "key": "Built-By",
+              "value": "JUnit Team"
+            },
+            {
+              "key": "Bundle-ManifestVersion",
+              "value": "2"
+            },
+            {
+              "key": "Bundle-Name",
+              "value": "JUnit Platform Commons"
+            },
+            {
+              "key": "Bundle-SymbolicName",
+              "value": "junit-platform-commons"
+            },
+            {
+              "key": "Bundle-Version",
+              "value": "1.10.0"
+            },
+            {
+              "key": "Created-By",
+              "value": "17.0.5 (BellSoft 17.0.5+8-LTS)"
+            },
+            {
+              "key": "Export-Package",
+              "value": "org.junit.platform.commons;version=\"1.10.0\";status=STABLE;uses:=\"org.apiguardian.api,org.junit.platform.commons.util\",org.junit.platform.commons.annotation;version=\"1.10.0\";status=STABLE;uses:=\"org.apiguardian.api\",org.junit.platform.commons.function;version=\"1.10.0\";status=MAINTAINED;uses:=\"org.apiguardian.api\",org.junit.platform.commons.logging;version=\"1.10.0\";status=INTERNAL;mandatory:=status;uses:=\"org.apiguardian.api\",org.junit.platform.commons.support;version=\"1.10.0\";status=STABLE;uses:=\"org.apiguardian.api,org.junit.platform.commons,org.junit.platform.commons.function\",org.junit.platform.commons.util;version=\"1.10.0\";status=DEPRECATED;uses:=\"org.apiguardian.api,org.junit.platform.commons,org.junit.platform.commons.function\""
+            },
+            {
+              "key": "Implementation-Title",
+              "value": "junit-platform-commons"
+            },
+            {
+              "key": "Implementation-Vendor",
+              "value": "junit.org"
+            },
+            {
+              "key": "Implementation-Version",
+              "value": "1.10.0"
+            },
+            {
+              "key": "Import-Package",
+              "value": "org.apiguardian.api;resolution:=optional;version=\"[1.1,2)\",org.junit.platform.commons;version=\"[1.10,2)\",org.junit.platform.commons.function;version=\"[1.10,2)\",org.junit.platform.commons.util;version=\"[1.10,2)\",org.junit.platform.commons.logging;status=INTERNAL;version=\"[1.10,2)\""
+            },
+            {
+              "key": "Require-Capability",
+              "value": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.8))\""
+            },
+            {
+              "key": "Specification-Title",
+              "value": "junit-platform-commons"
+            },
+            {
+              "key": "Specification-Vendor",
+              "value": "junit.org"
+            },
+            {
+              "key": "Specification-Version",
+              "value": "1.10.0"
+            },
+            {
+              "key": "Multi-Release",
+              "value": "true"
+            }
+          ]
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "d533ff2c286eaf963566f92baf5f8a06628d2609"
+          }
+        ]
+      }
+    },
+    {
+      "id": "95fc082a76470eea",
+      "name": "listenablefuture",
+      "version": "9999.0-empty-to-avoid-conflict-with-guava",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+          "accessPath": "/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:listenablefuture:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:google:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Created-By",
+              "value": "Apache Maven 3.5.0"
+            },
+            {
+              "key": "Built-By",
+              "value": "cpovirk"
+            },
+            {
+              "key": "Build-Jdk",
+              "value": "1.8.0_151-google-v7"
+            }
+          ]
+        },
+        "pomProperties": {
+          "path": "META-INF/maven/com.google.guava/listenablefuture/pom.properties",
+          "name": "",
+          "groupId": "com.google.guava",
+          "artifactId": "listenablefuture",
+          "version": "9999.0-empty-to-avoid-conflict-with-guava"
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "b421526c5f297295adef1c886e5246c39d4ac629"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e29c4c320c28b5db",
+      "name": "opentest4j",
+      "version": "1.3.0",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/lib/opentest4j-1.3.0.jar",
+          "accessPath": "/lib/opentest4j-1.3.0.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "The Apache License, Version 2.0",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/lib/opentest4j-1.3.0.jar",
+              "accessPath": "/lib/opentest4j-1.3.0.jar",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:opentest4j-org:opentest4j:1.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:opentest4j_org:opentest4j:1.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:opentest4j:opentest4j:1.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.opentest4j/opentest4j@1.3.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/lib/opentest4j-1.3.0.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Bnd-LastModified",
+              "value": "1688646308899"
+            },
+            {
+              "key": "Build-Date",
+              "value": "2023-07-06"
+            },
+            {
+              "key": "Build-Revision",
+              "value": "214973bfa4e7e9be7d04e623202cc4147c7036d2"
+            },
+            {
+              "key": "Build-Time",
+              "value": "14:25:06.116+0200"
+            },
+            {
+              "key": "Built-By",
+              "value": "OTA4J Team"
+            },
+            {
+              "key": "Bundle-License",
+              "value": "The Apache License, Version 2.0"
+            },
+            {
+              "key": "Bundle-ManifestVersion",
+              "value": "2"
+            },
+            {
+              "key": "Bundle-Name",
+              "value": "opentest4j"
+            },
+            {
+              "key": "Bundle-SymbolicName",
+              "value": "org.opentest4j"
+            },
+            {
+              "key": "Bundle-Vendor",
+              "value": "opentest4j.org"
+            },
+            {
+              "key": "Bundle-Version",
+              "value": "1.3.0"
+            },
+            {
+              "key": "Created-By",
+              "value": "17.0.7 (BellSoft)"
+            },
+            {
+              "key": "Export-Package",
+              "value": "org.opentest4j;version=\"1.3.0\""
+            },
+            {
+              "key": "Implementation-Title",
+              "value": "opentest4j"
+            },
+            {
+              "key": "Implementation-Vendor",
+              "value": "opentest4j.org"
+            },
+            {
+              "key": "Implementation-Version",
+              "value": "1.3.0"
+            },
+            {
+              "key": "Require-Capability",
+              "value": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.6))\""
+            },
+            {
+              "key": "Specification-Title",
+              "value": "opentest4j"
+            },
+            {
+              "key": "Specification-Vendor",
+              "value": "opentest4j.org"
+            },
+            {
+              "key": "Specification-Version",
+              "value": "1.3.0"
+            },
+            {
+              "key": "Tool",
+              "value": "Bnd-6.4.0.202211291949"
+            }
+          ]
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "152ea56b3a72f655d4fd677fc0ef2596c3dd5e6e"
+          }
+        ]
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "0bcdaed7de00132c",
+      "child": "c54c4d2f62531ec1",
+      "type": "evident-by"
+    },
+    {
+      "parent": "2e02337b7f5c1bc0",
+      "child": "1a2a757bb63473ff",
+      "type": "evident-by"
+    },
+    {
+      "parent": "3004ce93f7e4ecfceb48cfb03b184545f39c6e199c69fdecb4750d51285fe036",
+      "child": "0bcdaed7de00132c",
+      "type": "contains"
+    },
+    {
+      "parent": "3004ce93f7e4ecfceb48cfb03b184545f39c6e199c69fdecb4750d51285fe036",
+      "child": "2e02337b7f5c1bc0",
+      "type": "contains"
+    },
+    {
+      "parent": "3004ce93f7e4ecfceb48cfb03b184545f39c6e199c69fdecb4750d51285fe036",
+      "child": "3a2dc73a8e0bce31",
+      "type": "contains"
+    },
+    {
+      "parent": "3004ce93f7e4ecfceb48cfb03b184545f39c6e199c69fdecb4750d51285fe036",
+      "child": "46e08ce38870ffee",
+      "type": "contains"
+    },
+    {
+      "parent": "3004ce93f7e4ecfceb48cfb03b184545f39c6e199c69fdecb4750d51285fe036",
+      "child": "4b557584ad2646ab",
+      "type": "contains"
+    },
+    {
+      "parent": "3004ce93f7e4ecfceb48cfb03b184545f39c6e199c69fdecb4750d51285fe036",
+      "child": "7848874e3ddb41c8",
+      "type": "contains"
+    },
+    {
+      "parent": "3004ce93f7e4ecfceb48cfb03b184545f39c6e199c69fdecb4750d51285fe036",
+      "child": "8c2f3fb7d8a145bf",
+      "type": "contains"
+    },
+    {
+      "parent": "3004ce93f7e4ecfceb48cfb03b184545f39c6e199c69fdecb4750d51285fe036",
+      "child": "8d7a41b1e833bb89",
+      "type": "contains"
+    },
+    {
+      "parent": "3004ce93f7e4ecfceb48cfb03b184545f39c6e199c69fdecb4750d51285fe036",
+      "child": "95fc082a76470eea",
+      "type": "contains"
+    },
+    {
+      "parent": "3004ce93f7e4ecfceb48cfb03b184545f39c6e199c69fdecb4750d51285fe036",
+      "child": "a04679eff9babf3b",
+      "type": "contains"
+    },
+    {
+      "parent": "3004ce93f7e4ecfceb48cfb03b184545f39c6e199c69fdecb4750d51285fe036",
+      "child": "c4e1ae704f5f7d88",
+      "type": "contains"
+    },
+    {
+      "parent": "3004ce93f7e4ecfceb48cfb03b184545f39c6e199c69fdecb4750d51285fe036",
+      "child": "e29c4c320c28b5db",
+      "type": "contains"
+    },
+    {
+      "parent": "3004ce93f7e4ecfceb48cfb03b184545f39c6e199c69fdecb4750d51285fe036",
+      "child": "f32106fdacfd01b1",
+      "type": "contains"
+    },
+    {
+      "parent": "3004ce93f7e4ecfceb48cfb03b184545f39c6e199c69fdecb4750d51285fe036",
+      "child": "fa60405c4feabc70",
+      "type": "contains"
+    },
+    {
+      "parent": "3a2dc73a8e0bce31",
+      "child": "625b05bc4175f38a",
+      "type": "evident-by"
+    },
+    {
+      "parent": "46e08ce38870ffee",
+      "child": "0388d3b1ee8046ad",
+      "type": "evident-by"
+    },
+    {
+      "parent": "4b557584ad2646ab",
+      "child": "4e19be2ace11b8bb",
+      "type": "evident-by"
+    },
+    {
+      "parent": "7848874e3ddb41c8",
+      "child": "99329eec95199615",
+      "type": "evident-by"
+    },
+    {
+      "parent": "8c2f3fb7d8a145bf",
+      "child": "b6b5dbcd0f519b7e",
+      "type": "evident-by"
+    },
+    {
+      "parent": "8d7a41b1e833bb89",
+      "child": "512b8450a34df7e3",
+      "type": "evident-by"
+    },
+    {
+      "parent": "95fc082a76470eea",
+      "child": "164f529438860c7f",
+      "type": "evident-by"
+    },
+    {
+      "parent": "a04679eff9babf3b",
+      "child": "ef804879e06e14e8",
+      "type": "evident-by"
+    },
+    {
+      "parent": "c4e1ae704f5f7d88",
+      "child": "d24e060850ba803f",
+      "type": "evident-by"
+    },
+    {
+      "parent": "e29c4c320c28b5db",
+      "child": "25065eb38e686e08",
+      "type": "evident-by"
+    },
+    {
+      "parent": "f32106fdacfd01b1",
+      "child": "e7286a01fe7159cd",
+      "type": "evident-by"
+    },
+    {
+      "parent": "fa60405c4feabc70",
+      "child": "1a83864d4e573837",
+      "type": "evident-by"
+    }
+  ],
+  "files": [
+    {
+      "id": "1a83864d4e573837",
+      "location": {
+        "path": "/lib/apiguardian-api-1.1.2.jar"
+      }
+    },
+    {
+      "id": "0388d3b1ee8046ad",
+      "location": {
+        "path": "/lib/checker-qual-3.41.0.jar"
+      }
+    },
+    {
+      "id": "99329eec95199615",
+      "location": {
+        "path": "/lib/error_prone_annotations-2.23.0.jar"
+      }
+    },
+    {
+      "id": "1a2a757bb63473ff",
+      "location": {
+        "path": "/lib/failureaccess-1.0.2.jar"
+      }
+    },
+    {
+      "id": "c54c4d2f62531ec1",
+      "location": {
+        "path": "/lib/guava-33.0.0-jre.jar"
+      }
+    },
+    {
+      "id": "4e19be2ace11b8bb",
+      "location": {
+        "path": "/lib/j2objc-annotations-2.8.jar"
+      }
+    },
+    {
+      "id": "512b8450a34df7e3",
+      "location": {
+        "path": "/lib/jackson-annotations-2.15.2.jar"
+      }
+    },
+    {
+      "id": "b6b5dbcd0f519b7e",
+      "location": {
+        "path": "/lib/jackson-core-2.15.2.jar"
+      }
+    },
+    {
+      "id": "d24e060850ba803f",
+      "location": {
+        "path": "/lib/jackson-databind-2.15.2.jar"
+      }
+    },
+    {
+      "id": "ef804879e06e14e8",
+      "location": {
+        "path": "/lib/jsr305-3.0.2.jar"
+      }
+    },
+    {
+      "id": "e7286a01fe7159cd",
+      "location": {
+        "path": "/lib/junit-jupiter-api-5.10.0.jar"
+      }
+    },
+    {
+      "id": "625b05bc4175f38a",
+      "location": {
+        "path": "/lib/junit-platform-commons-1.10.0.jar"
+      }
+    },
+    {
+      "id": "164f529438860c7f",
+      "location": {
+        "path": "/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+      }
+    },
+    {
+      "id": "25065eb38e686e08",
+      "location": {
+        "path": "/lib/opentest4j-1.3.0.jar"
+      }
+    }
+  ],
+  "source": {
+    "id": "3004ce93f7e4ecfceb48cfb03b184545f39c6e199c69fdecb4750d51285fe036",
+    "name": "/code",
+    "version": "",
+    "type": "directory",
+    "metadata": {
+      "path": "/code"
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "0.104.0",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "directory"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-cataloger",
+          "cocoapods-cataloger",
+          "conan-cataloger",
+          "dart-pubspec-lock-cataloger",
+          "dotnet-deps-cataloger",
+          "dotnet-portable-executable-cataloger",
+          "dpkg-db-cataloger",
+          "elixir-mix-lock-cataloger",
+          "erlang-otp-application-cataloger",
+          "erlang-rebar-lock-cataloger",
+          "github-action-workflow-usage-cataloger",
+          "github-actions-usage-cataloger",
+          "go-module-binary-cataloger",
+          "go-module-file-cataloger",
+          "graalvm-native-image-cataloger",
+          "haskell-cataloger",
+          "java-archive-cataloger",
+          "java-gradle-lockfile-cataloger",
+          "java-pom-cataloger",
+          "javascript-lock-cataloger",
+          "linux-kernel-cataloger",
+          "nix-store-cataloger",
+          "php-composer-lock-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "python-package-cataloger",
+          "rpm-archive-cataloger",
+          "rpm-db-cataloger",
+          "ruby-gemfile-cataloger",
+          "ruby-gemspec-cataloger",
+          "rust-cargo-lock-cataloger",
+          "swift-package-manager-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "java-binary-openjdk",
+          "java-binary-ibm",
+          "java-binary-oracle",
+          "nodejs-binary",
+          "go-binary-hint",
+          "busybox-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-cli-binary",
+          "php-fpm-binary",
+          "php-apache-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "consul-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "gcc-binary",
+          "wordpress-cli-binary"
+        ],
+        "golang": {
+          "local-mod-cache-dir": "/root/go/pkg/mod",
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-remote-licenses": false
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "max-parent-recursive-depth": 5,
+          "use-network": false
+        },
+        "javascript": {
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "python": {
+          "guess-unpinned-requirements": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.0.3",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.0.3.json"
+  }
+}

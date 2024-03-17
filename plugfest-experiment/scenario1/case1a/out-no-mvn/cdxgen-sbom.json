@@ -1,0 +1,127 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:a11ee5fe-68c6-4340-bbe4-51c82db56ffd",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-02-14T07:25:13.149Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "10.1.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@10.1.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@10.1.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "component": {
+      "group": "",
+      "name": "code",
+      "version": "latest",
+      "type": "application",
+      "bom-ref": "pkg:gem/code@latest",
+      "purl": "pkg:gem/code@latest",
+      "components": []
+    }
+  },
+  "components": [
+    {
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.15.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.2?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/code/pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/code/pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "33.0.0-jre",
+      "purl": "pkg:maven/com.google.guava/guava@33.0.0-jre?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.guava/guava@33.0.0-jre?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/code/pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/code/pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "org.junit.jupiter",
+      "name": "junit-jupiter-api",
+      "version": "5.10.0",
+      "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.10.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.10.0?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/code/pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/code/pom.xml"
+        }
+      ]
+    }
+  ],
+  "services": [],
+  "dependencies": []
+}

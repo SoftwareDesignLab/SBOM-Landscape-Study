@@ -1,0 +1,696 @@
+{
+  "repository" : {
+    "vcs" : {
+      "type" : "",
+      "url" : "",
+      "revision" : "",
+      "path" : ""
+    },
+    "vcs_processed" : {
+      "type" : "",
+      "url" : "",
+      "revision" : "",
+      "path" : ""
+    },
+    "config" : { }
+  },
+  "analyzer" : {
+    "start_time" : "2024-02-13T13:35:19.393164487Z",
+    "end_time" : "2024-02-13T13:36:04.949644825Z",
+    "environment" : {
+      "ort_version" : "15.3.0-SNAPSHOT",
+      "java_version" : "21.0.2",
+      "os" : "Linux",
+      "processors" : 12,
+      "max_memory" : 4150263808,
+      "variables" : {
+        "HOME" : "/root",
+        "TERM" : "xterm",
+        "JAVA_HOME" : "/opt/java/openjdk"
+      },
+      "tool_versions" : { }
+    },
+    "config" : {
+      "allow_dynamic_versions" : false,
+      "skip_excluded" : false
+    },
+    "result" : {
+      "projects" : [ {
+        "id" : "Maven:org.example:case3a:1.0-SNAPSHOT",
+        "definition_file_path" : "",
+        "declared_licenses" : [ ],
+        "declared_licenses_processed" : { },
+        "vcs" : {
+          "type" : "",
+          "url" : "",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "",
+          "url" : "",
+          "revision" : "",
+          "path" : ""
+        },
+        "homepage_url" : "",
+        "scope_names" : [ "compile" ]
+      } ],
+      "packages" : [ {
+        "id" : "Maven:com.fasterxml.jackson.core:jackson-annotations:2.15.2",
+        "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.15.2",
+        "authors" : [ "FasterXML", "Tatu Saloranta" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Core annotations used for value types, used by Jackson data binding package.",
+        "homepage_url" : "https://github.com/FasterXML/jackson",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar",
+          "hash" : {
+            "value" : "4724a65ac8e8d156a24898d50fd5dbd3642870b8",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2-sources.jar",
+          "hash" : {
+            "value" : "7458734de3b894cff3f3744ab11ff79b635c80e2",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git@github.com:FasterXML/jackson-annotations.git",
+          "revision" : "jackson-annotations-2.15.2",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "ssh://git@github.com/FasterXML/jackson-annotations.git",
+          "revision" : "jackson-annotations-2.15.2",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.fasterxml.jackson.core:jackson-core:2.15.2",
+        "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.2",
+        "authors" : [ "FasterXML", "Tatu Saloranta" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
+        "homepage_url" : "https://github.com/FasterXML/jackson-core",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar",
+          "hash" : {
+            "value" : "a6fe1836469a69b3ff66037c324d75fc66ef137c",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2-sources.jar",
+          "hash" : {
+            "value" : "4d3e4ff17d2cda69f8fd692694c304ff38a75823",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git@github.com:FasterXML/jackson-core.git",
+          "revision" : "jackson-core-2.15.2",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "ssh://git@github.com/FasterXML/jackson-core.git",
+          "revision" : "jackson-core-2.15.2",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.fasterxml.jackson.core:jackson-databind:2.15.2",
+        "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.2",
+        "authors" : [ "FasterXML", "Tatu Saloranta" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "General data-binding functionality for Jackson: works on core streaming API",
+        "homepage_url" : "https://github.com/FasterXML/jackson",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar",
+          "hash" : {
+            "value" : "9353b021f10c307c00328f52090de2bdb4b6ff9c",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2-sources.jar",
+          "hash" : {
+            "value" : "032d4d520f3e46e7b2c2d4d863d8f2f381af4fa6",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git@github.com:FasterXML/jackson-databind.git",
+          "revision" : "jackson-databind-2.15.2",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "ssh://git@github.com/FasterXML/jackson-databind.git",
+          "revision" : "jackson-databind-2.15.2",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.google.code.findbugs:jsr305:3.0.2",
+        "purl" : "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "JSR305 Annotations for Findbugs",
+        "homepage_url" : "http://findbugs.sourceforge.net/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+          "hash" : {
+            "value" : "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar",
+          "hash" : {
+            "value" : "b19b5927c2c25b6c70f093767041e641ae0b1b35",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://code.google.com/p/jsr-305/",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://code.google.com/p/jsr-305",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.google.errorprone:error_prone_annotations:2.23.0",
+        "purl" : "pkg:maven/com.google.errorprone/error_prone_annotations@2.23.0",
+        "authors" : [ "Eddie Aftandilian", "Google LLC" ],
+        "declared_licenses" : [ "Apache 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.",
+        "homepage_url" : "https://errorprone.info/error_prone_annotations",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.jar",
+          "hash" : {
+            "value" : "43a27853b6c7d54893e0b1997c2c778c347179eb",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0-sources.jar",
+          "hash" : {
+            "value" : "532ee2653e231d34f2beef55b1738fb92dc3be0e",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/google/error-prone.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/google/error-prone.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.google.guava:failureaccess:1.0.2",
+        "purl" : "pkg:maven/com.google.guava/failureaccess@1.0.2",
+        "authors" : [ "Google" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Contains\n    com.google.common.util.concurrent.internal.InternalFutureFailureAccess and\n    InternalFutures. Most users will never need to use this artifact. Its\n    classes are conceptually a part of Guava, but they're in this separate\n    artifact so that Android libraries can use them without pulling in all of\n    Guava (just as they can use ListenableFuture by depending on the\n    listenablefuture artifact).",
+        "homepage_url" : "https://github.com/google/guava/failureaccess",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar",
+          "hash" : {
+            "value" : "c4a06a64e650562f30b7bf9aaec1bfed43aca12b",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2-sources.jar",
+          "hash" : {
+            "value" : "6acdafcf2dfc3b548e59dd3a4b454552aeb6ff65",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/google/guava.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/google/guava.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.google.guava:guava:33.0.0-jre",
+        "purl" : "pkg:maven/com.google.guava/guava@33.0.0-jre",
+        "authors" : [ "Google" ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Guava is a suite of core and expanded libraries that include\n    utility classes, Google's collections, I/O classes, and\n    much more.",
+        "homepage_url" : "https://github.com/google/guava",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar",
+          "hash" : {
+            "value" : "161ba27964a62f241533807a46b8711b13c1d94b",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre-sources.jar",
+          "hash" : {
+            "value" : "2cca40652185734d5a89349c471a54367fb98067",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/google/guava.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/google/guava.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+        "purl" : "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava",
+        "authors" : [ "Google" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "An empty artifact that Guava depends on to signal that it is providing\n    ListenableFuture -- but is also available in a second \"version\" that\n    contains com.google.common.util.concurrent.ListenableFuture class, without\n    any other Guava classes. The idea is:\n\n    - If users want only ListenableFuture, they depend on listenablefuture-1.0.\n\n    - If users want all of Guava, they depend on guava, which, as of Guava\n    27.0, depends on\n    listenablefuture-9999.0-empty-to-avoid-conflict-with-guava. The 9999.0-...\n    version number is enough for some build systems (notably, Gradle) to select\n    that empty artifact over the \"real\" listenablefuture-1.0 -- avoiding a\n    conflict with the copy of ListenableFuture in guava itself. If users are\n    using an older version of Guava or a build system other than Gradle, they\n    may see class conflicts. If so, they can solve them by manually excluding\n    the listenablefuture artifact or manually forcing their build systems to\n    use 9999.0-....",
+        "homepage_url" : "https://github.com/google/guava/listenablefuture",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+          "hash" : {
+            "value" : "b421526c5f297295adef1c886e5246c39d4ac629",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "",
+          "hash" : {
+            "value" : "",
+            "algorithm" : ""
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/google/guava.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/google/guava.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.google.j2objc:j2objc-annotations:2.8",
+        "purl" : "pkg:maven/com.google.j2objc/j2objc-annotations@2.8",
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "A set of annotations that provide additional information to the J2ObjC\n    translator to modify the result of translation.",
+        "homepage_url" : "https://github.com/google/j2objc/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar",
+          "hash" : {
+            "value" : "c85270e307e7b822f1086b93689124b89768e273",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8-sources.jar",
+          "hash" : {
+            "value" : "74fb66e276fc42784d884d51f841e35232bc90de",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Subversion",
+          "url" : "http://svn.sonatype.org/spice/trunk/oss/oss-parenti-9",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Subversion",
+          "url" : "http://svn.sonatype.org/spice",
+          "revision" : "trunk",
+          "path" : "oss/oss-parenti-9"
+        }
+      }, {
+        "id" : "Maven:org.apiguardian:apiguardian-api:1.1.2",
+        "purl" : "pkg:maven/org.apiguardian/apiguardian-api@1.1.2",
+        "authors" : [ "@API Guardian Team" ],
+        "declared_licenses" : [ "The Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "@API Guardian",
+        "homepage_url" : "https://github.com/apiguardian-team/apiguardian",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar",
+          "hash" : {
+            "value" : "a231e0d844d2721b0fa1b238006d15c6ded6842a",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2-sources.jar",
+          "hash" : {
+            "value" : "e0787a997746ac32639e0bf3cb27af8dce8a3428",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/apiguardian-team/apiguardian.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/apiguardian-team/apiguardian.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.checkerframework:checker-qual:3.41.0",
+        "purl" : "pkg:maven/org.checkerframework/checker-qual@3.41.0",
+        "authors" : [ "University of Washington" ],
+        "declared_licenses" : [ "The MIT License" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "MIT",
+          "mapped" : {
+            "The MIT License" : "MIT"
+          }
+        },
+        "description" : "checker-qual contains annotations (type qualifiers) that a programmer\nwrites to specify Java code for type-checking by the Checker Framework.",
+        "homepage_url" : "https://checkerframework.org/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.jar",
+          "hash" : {
+            "value" : "08be6df7f1e9bccb19f8f351b3651f0bac2f5e0c",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0-sources.jar",
+          "hash" : {
+            "value" : "bbd6dfcb5998fdda708d32c6c5b5a570f9f788e8",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/typetools/checker-framework.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/typetools/checker-framework.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.junit.jupiter:junit-jupiter-api:5.10.0",
+        "purl" : "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.10.0",
+        "authors" : [ "Christian Stein", "Johannes Link", "Juliette de Rancourt", "Marc Philipp", "Matthias Merdes", "Sam Brannen", "Stefan Bechtold" ],
+        "declared_licenses" : [ "Eclipse Public License v2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "EPL-2.0",
+          "mapped" : {
+            "Eclipse Public License v2.0" : "EPL-2.0"
+          }
+        },
+        "description" : "Module \"junit-jupiter-api\" of JUnit 5.",
+        "homepage_url" : "https://junit.org/junit5/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar",
+          "hash" : {
+            "value" : "2fe4ba3d31d5067878e468c96aa039005a9134d3",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0-sources.jar",
+          "hash" : {
+            "value" : "551bc33910fee1c601da155a77f67f70f66f6a27",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/junit-team/junit5.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/junit-team/junit5.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.junit.platform:junit-platform-commons:1.10.0",
+        "purl" : "pkg:maven/org.junit.platform/junit-platform-commons@1.10.0",
+        "authors" : [ "Christian Stein", "Johannes Link", "Juliette de Rancourt", "Marc Philipp", "Matthias Merdes", "Sam Brannen", "Stefan Bechtold" ],
+        "declared_licenses" : [ "Eclipse Public License v2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "EPL-2.0",
+          "mapped" : {
+            "Eclipse Public License v2.0" : "EPL-2.0"
+          }
+        },
+        "description" : "Module \"junit-platform-commons\" of JUnit 5.",
+        "homepage_url" : "https://junit.org/junit5/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar",
+          "hash" : {
+            "value" : "d533ff2c286eaf963566f92baf5f8a06628d2609",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0-sources.jar",
+          "hash" : {
+            "value" : "74f2f9694d30effa2caff679b9f02ba832cbd1ac",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/junit-team/junit5.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/junit-team/junit5.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.opentest4j:opentest4j:1.3.0",
+        "purl" : "pkg:maven/org.opentest4j/opentest4j@1.3.0",
+        "authors" : [ "Johannes Link", "Marc Philipp", "Matthias Merdes", "Sam Brannen", "Stefan Bechtold" ],
+        "declared_licenses" : [ "The Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Open Test Alliance for the JVM",
+        "homepage_url" : "https://github.com/ota4j-team/opentest4j",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar",
+          "hash" : {
+            "value" : "152ea56b3a72f655d4fd677fc0ef2596c3dd5e6e",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0-sources.jar",
+          "hash" : {
+            "value" : "afb8ff23cffb021c56f333953aebfe6e8818568e",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/ota4j-team/opentest4j.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/ota4j-team/opentest4j.git",
+          "revision" : "",
+          "path" : ""
+        }
+      } ],
+      "dependency_graphs" : {
+        "Maven" : {
+          "packages" : [ "Maven:com.fasterxml.jackson.core:jackson-annotations:2.15.2", "Maven:com.fasterxml.jackson.core:jackson-core:2.15.2", "Maven:com.fasterxml.jackson.core:jackson-databind:2.15.2", "Maven:com.google.code.findbugs:jsr305:3.0.2", "Maven:com.google.errorprone:error_prone_annotations:2.23.0", "Maven:com.google.guava:failureaccess:1.0.2", "Maven:com.google.guava:guava:33.0.0-jre", "Maven:com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava", "Maven:com.google.j2objc:j2objc-annotations:2.8", "Maven:org.apiguardian:apiguardian-api:1.1.2", "Maven:org.checkerframework:checker-qual:3.41.0", "Maven:org.junit.jupiter:junit-jupiter-api:5.10.0", "Maven:org.junit.platform:junit-platform-commons:1.10.0", "Maven:org.opentest4j:opentest4j:1.3.0" ],
+          "scopes" : {
+            "org.example:case3a:1.0-SNAPSHOT:compile" : [ {
+              "root" : 2
+            }, {
+              "root" : 6
+            }, {
+              "root" : 11
+            } ]
+          },
+          "nodes" : [ { }, {
+            "pkg" : 1
+          }, {
+            "pkg" : 2
+          }, {
+            "pkg" : 5
+          }, {
+            "pkg" : 7
+          }, {
+            "pkg" : 3
+          }, {
+            "pkg" : 10
+          }, {
+            "pkg" : 4
+          }, {
+            "pkg" : 8
+          }, {
+            "pkg" : 6
+          }, {
+            "pkg" : 13
+          }, {
+            "pkg" : 12
+          }, {
+            "pkg" : 9
+          }, {
+            "pkg" : 11
+          } ],
+          "edges" : [ {
+            "from" : 2,
+            "to" : 0
+          }, {
+            "from" : 2,
+            "to" : 1
+          }, {
+            "from" : 9,
+            "to" : 3
+          }, {
+            "from" : 9,
+            "to" : 4
+          }, {
+            "from" : 9,
+            "to" : 5
+          }, {
+            "from" : 9,
+            "to" : 6
+          }, {
+            "from" : 9,
+            "to" : 7
+          }, {
+            "from" : 9,
+            "to" : 8
+          }, {
+            "from" : 13,
+            "to" : 10
+          }, {
+            "from" : 13,
+            "to" : 11
+          }, {
+            "from" : 13,
+            "to" : 12
+          } ]
+        }
+      }
+    }
+  },
+  "scanner" : null,
+  "advisor" : null,
+  "evaluator" : null,
+  "resolved_configuration" : {
+    "package_curations" : [ {
+      "provider" : {
+        "id" : "DefaultDir"
+      },
+      "curations" : [ ]
+    }, {
+      "provider" : {
+        "id" : "DefaultFile"
+      },
+      "curations" : [ ]
+    } ]
+  }
+}

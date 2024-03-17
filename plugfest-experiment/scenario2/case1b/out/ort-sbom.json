@@ -1,0 +1,77 @@
+{
+  "repository" : {
+    "vcs" : {
+      "type" : "",
+      "url" : "",
+      "revision" : "",
+      "path" : ""
+    },
+    "vcs_processed" : {
+      "type" : "",
+      "url" : "",
+      "revision" : "",
+      "path" : ""
+    },
+    "config" : { }
+  },
+  "analyzer" : {
+    "start_time" : "2024-02-13T21:21:20.544587033Z",
+    "end_time" : "2024-02-13T21:21:23.571566561Z",
+    "environment" : {
+      "ort_version" : "15.3.0-038.sha.e8e68aa",
+      "java_version" : "21.0.2",
+      "os" : "Linux",
+      "processors" : 8,
+      "max_memory" : 2030043136,
+      "variables" : {
+        "HOME" : "/root",
+        "TERM" : "xterm",
+        "JAVA_HOME" : "/opt/java/openjdk"
+      },
+      "tool_versions" : { }
+    },
+    "config" : {
+      "allow_dynamic_versions" : false,
+      "skip_excluded" : false
+    },
+    "result" : {
+      "projects" : [ {
+        "id" : "Unmanaged::code:",
+        "definition_file_path" : "",
+        "declared_licenses" : [ ],
+        "declared_licenses_processed" : { },
+        "vcs" : {
+          "type" : "",
+          "url" : "",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "",
+          "url" : "",
+          "revision" : "",
+          "path" : ""
+        },
+        "homepage_url" : "",
+        "scopes" : [ ]
+      } ],
+      "packages" : [ ]
+    }
+  },
+  "scanner" : null,
+  "advisor" : null,
+  "evaluator" : null,
+  "resolved_configuration" : {
+    "package_curations" : [ {
+      "provider" : {
+        "id" : "DefaultDir"
+      },
+      "curations" : [ ]
+    }, {
+      "provider" : {
+        "id" : "DefaultFile"
+      },
+      "curations" : [ ]
+    } ]
+  }
+}
