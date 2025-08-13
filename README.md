@@ -6,14 +6,15 @@ https://arxiv.org/abs/2402.11151
 
 Cite us! :)
 ```
-@misc{https://doi.org/10.48550/arxiv.2402.11151,
-  doi = {10.48550/ARXIV.2402.11151},
-  url = {https://arxiv.org/abs/2402.11151},
-  author = {Mirakhorli,  Mehdi and Garcia,  Derek and Dillon,  Schuyler and Laporte,  Kevin and Morrison,  Matthew and Lu,  Henry and Koscinski,  Viktoria and Enoch,  Christopher},
-  keywords = {Software Engineering (cs.SE),  FOS: Computer and information sciences,  FOS: Computer and information sciences},
-  title = {A Landscape Study of Open Source and Proprietary Tools for Software Bill of Materials (SBOM)},
-  publisher = {arXiv},
-  year = {2024},
-  copyright = {Creative Commons Attribution 4.0 International}
+@inproceedings{Garcia2025,
+  title = {A Landscape Study of Open-Source Tools for Software Bill of Materials (SBOM) and Supply Chain Security},
+  url = {http://dx.doi.org/10.1109/SVM66695.2025.00010},
+  DOI = {10.1109/svm66695.2025.00010},
+  booktitle = {2025 IEEE/ACM 3rd International Workshop on Software Vulnerability Management (SVM)},
+  publisher = {IEEE},
+  author = {Garcia,  Derek and Mirakorhli,  Mehdi Tarrit and Dillon,  Schuyler and Laporte,  Kevin and Morrison,  Matthew and Lu,  Henry and Koscinski,  Viktoria and Enoch,  Christopher and Fazelnia,  Mohamad and Chen,  Roger},
+  year = {2025},
+  month = may,
+  pages = {37–45}
 }
 ```
